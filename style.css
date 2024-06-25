@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px auto;
+    margin-top: 70px;
+    max-width: 650px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Remove the default list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Display list items inline */
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* Add some space between items */
+}
+
+/* You can remove the margin from the last item if you want */
+ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
